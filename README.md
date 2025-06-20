@@ -1,12 +1,12 @@
 # 🌦️ Short-Term Weather Prediction Using Machine Learning & Streamlit
 
 ![banner](https://img.shields.io/badge/Streamlit-Deployed-green)  
-[![Streamlit App](https://img.shields.io/badge/Streamlit-Live--Demo-ff4b4b?logo=streamlit&logoColor=white)]([https://your-streamlit-url.streamlit.app](https://short-term-weather-prediction-app-eap4gp8yu8h5etr6ptqrww.streamlit.app/))
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live--Demo-ff4b4b?logo=streamlit&logoColor=white)](https://short-term-weather-prediction-app-eap4gp8yu8h5etr6ptqrww.streamlit.app/)
 
 
 This is a machine learning powered Streamlit web app that predicts short-term temperatures for multiple Indian cities using historical weather data from 1990–2022.
 
-**Live Demo**: [Click here to try the app]([https://your-app.streamlit.app](https://short-term-weather-prediction-app-eap4gp8yu8h5etr6ptqrww.streamlit.app/))
+**Live Demo**: [Click here to try the app](https://short-term-weather-prediction-app-eap4gp8yu8h5etr6ptqrww.streamlit.app/)
 
 ---
 
