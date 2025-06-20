@@ -12,7 +12,7 @@ from model_utils import load_models, make_prediction
 
 # ==== UI Header ====
 st.set_page_config(page_title="Weather Prediction App", layout="centered")
-st.image("assets/logo.png", width=100)  # Optional logo
+st.image("weather_prediction_app/assets/logo.png", width=100)  # Optional logo
 st.title("🌤️ Smart Weather Forecasting")
 st.markdown("Predict short-term temperature using ML models trained on multi-city historical data.")
 
