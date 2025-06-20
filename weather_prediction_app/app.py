@@ -15,6 +15,8 @@ st.set_page_config(page_title="Weather Prediction App", layout="centered")
 st.image("weather_prediction_app/assets/logo.png", width=100)  # Optional logo
 st.title("🌤️ Smart Weather Forecasting")
 st.markdown("Predict short-term temperature using ML models trained on multi-city historical data.")
+# 🧭 Sidebar instruction
+st.markdown("🌈 **Click the arrow in the top-left corner👈 to open the sidebar and input your weather parameters☁️.**")
 
 # ==== Load models ====
 models = load_models()
