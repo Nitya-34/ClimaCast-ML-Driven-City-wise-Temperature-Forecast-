@@ -11,7 +11,7 @@ A smart weather prediction web app that uses multiple machine learning models to
 - [📊 Visualizations & EDA](#-visualizations--eda)
 - [🌐 Tech Stack](#-tech-stack)
 - [🧠 What I Learned](#-what-i-learned)
-- [📸 Screenshots](#-screenshots)
+- [📸 Adding Screenshots:](#-adding-screenshots)
 
 ---
 
