@@ -56,4 +56,43 @@ Each model was trained on features:
 
 ---
 
+## 🌐 Tech Stack
 
+- **Python** – Core language for data processing and model building
+- **Pandas & NumPy** – Data cleaning, feature engineering, and manipulation
+- **Matplotlib, Seaborn, Plotly** – Static and interactive data visualizations
+- **Scikit-learn** – ML models like Linear Regression, SVR, Random Forest
+- **XGBoost** – Boosted gradient decision trees for high performance
+- **Streamlit** – UI framework for deploying interactive ML apps
+- **Git & GitHub** – Version control and project hosting
+
+---
+
+## 🧠 What I Learned
+
+- How to clean, combine, and preprocess multi-city time-series weather datasets
+- Applied multiple ML regression models and compared their performance
+- Tuned hyperparameters and interpreted metrics like RMSE, MAE, R²
+- Built a full-fledged Streamlit app with a custom UI and charts
+- Used visual tools like emoji indicators, animated gauges, and color strips
+- Managed model loading, input handling, and dynamic output generation
+- Practiced real-world project structuring, modular code, and GitHub deployment
+
+---
+
+## 📸 Adding Screenshots:
+
+### 🏠 App Homepage
+![Homepage](assets/Homepage.png)
+
+### 📈 Actual vs Predicted Graph (Linear Regression)
+![Actual vs Predicted (Linear Regression)](assets/Actual_vs_Predicted(LR).png)
+
+### 📈 Actual vs Predicted Graph (XGBoost)
+![Actual vs Predicted (XGBoost)](assets/Actual_vs_Predicted(XGBoost).png)
+
+### 🌡️ Prediction Output
+![Prediction Output](assets/prediction_output.png)
+
+### 📊 City-wise Yearly Trends
+![Trend Chart](assets/trend_chart.png)
