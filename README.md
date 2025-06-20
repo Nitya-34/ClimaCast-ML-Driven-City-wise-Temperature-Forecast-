@@ -1,7 +1,12 @@
 # 🌦️ Short-Term Weather Prediction Using Machine Learning & Streamlit
 
 ![banner](https://img.shields.io/badge/Streamlit-Deployed-green)  
-A smart weather prediction web app that uses multiple machine learning models to forecast short-term temperatures for multiple Indian cities.
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live--Demo-ff4b4b?logo=streamlit&logoColor=white)]([https://your-streamlit-url.streamlit.app](https://short-term-weather-prediction-app-eap4gp8yu8h5etr6ptqrww.streamlit.app/))
+
+
+This is a machine learning powered Streamlit web app that predicts short-term temperatures for multiple Indian cities using historical weather data from 1990–2022.
+
+**Live Demo**: [Click here to try the app]([https://your-app.streamlit.app](https://short-term-weather-prediction-app-eap4gp8yu8h5etr6ptqrww.streamlit.app/))
 
 ---
 
@@ -77,6 +82,7 @@ Each model was trained on features:
 - Used visual tools like emoji indicators, animated gauges, and color strips
 - Managed model loading, input handling, and dynamic output generation
 - Practiced real-world project structuring, modular code, and GitHub deployment
+- Hosting publicly on Streamlit Cloud
 
 ---
 
