@@ -83,16 +83,16 @@ Each model was trained on features:
 ## 📸 Adding Screenshots:
 
 ### 🏠 App Homepage
-![Homepage](assets/Homepage.png)
+![Homepage](weather_prediction_app/assets/Homepage.png)
 
 ### 📈 Actual vs Predicted Graph (Linear Regression)
-![Actual vs Predicted (Linear Regression)](assets/Actual_vs_Predicted(LR).png)
+![Actual vs Predicted (Linear Regression)](weather_prediction_app/assets/Actual_vs_Predicted(LR).png)
 
 ### 📈 Actual vs Predicted Graph (XGBoost)
-![Actual vs Predicted (XGBoost)](assets/Actual_vs_Predicted(XGBoost).png)
+![Actual vs Predicted (XGBoost)](weather_prediction_app/assets/Actual_vs_Predicted(XGBoost).png)
 
 ### 🌡️ Prediction Output
-![Prediction Output](assets/prediction_output.png)
+![Prediction Output](weather_prediction_app/assets/prediction_output.png)
 
 ### 📊 City-wise Yearly Trends
-![Trend Chart](assets/trend_chart.png)
+![Trend Chart](weather_prediction_app/assets/trend_chart.png)
