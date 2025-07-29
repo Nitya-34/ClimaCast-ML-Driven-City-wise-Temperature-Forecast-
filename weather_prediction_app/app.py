@@ -75,7 +75,7 @@ if st.sidebar.button("🔍 Predict"):
         return min(max((temp - min_val) / (max_val - min_val), 0), 1)
     
     normalized_temp = normalize_temp(prediction)
-    bar_color = pc.sample_colorscale(colorscale, normalized_temp)[0]  # Exact tip color
+    bar_color = pc.sample_colorscale(colorscale, [float(normalized_temp)])[0]  #Exact tip color
     
     # 🎯 Thermometer-style bar chart
     fig = go.Figure(go.Bar(
