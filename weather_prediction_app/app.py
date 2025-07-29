@@ -69,6 +69,13 @@ if st.sidebar.button("🔍 Predict"):
   
     # Define the color scale
     colorscale = "RdYlBu_r"  # reversed RdYlBu: blue → red
+
+    # Normalize temperature to a 0–1 scale for color sampling (assuming temp range 10–50°C)
+    def normalize_temp(temp, min_val=10, max_val=50):
+        return min(max((temp - min_val) / (max_val - min_val), 0), 1)
+    
+    normalized_temp = normalize_temp(prediction)
+    bar_color = pc.sample_colorscale(colorscale, normalized_temp)[0]  # Exact tip color
     
     # 🎯 Thermometer-style bar chart
     fig = go.Figure(go.Bar(
@@ -78,10 +85,7 @@ if st.sidebar.button("🔍 Predict"):
         text=[f"{prediction:.2f}°C"],
         textposition='auto',
         marker=dict(
-            color=prediction,
-            colorscale=colorscale,
-            cmin=10,
-            cmax=50
+            color=bar_color           
         )
     ))
     
